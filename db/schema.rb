@@ -10,16 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2) do
-
-  create_table "networks", force: :cascade do |t|
-    t.string "call_letters"
-    t.integer "channel"
-  end
-
-  create_table "shows", force: :cascade do |t|
-    t.string "name"
-    t.string "genre"
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
